@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\EjerciciosClase-Recursividad-Estructura\bin\Debug\net6.0\EjerciciosClase-Recursividad-Estructura.exe
+C:\Users\Usuario\source\repos\EjerciciosClase-Recursividad-Estructura\bin\Debug\net6.0\EjerciciosClase-Recursividad-Estructura.deps.json
+C:\Users\Usuario\source\repos\EjerciciosClase-Recursividad-Estructura\bin\Debug\net6.0\EjerciciosClase-Recursividad-Estructura.runtimeconfig.json
+C:\Users\Usuario\source\repos\EjerciciosClase-Recursividad-Estructura\bin\Debug\net6.0\EjerciciosClase-Recursividad-Estructura.dll
+C:\Users\Usuario\source\repos\EjerciciosClase-Recursividad-Estructura\bin\Debug\net6.0\EjerciciosClase-Recursividad-Estructura.pdb
+C:\Users\Usuario\source\repos\EjerciciosClase-Recursividad-Estructura\obj\Debug\net6.0\EjerciciosClase-Recursividad-Estructura.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\EjerciciosClase-Recursividad-Estructura\obj\Debug\net6.0\EjerciciosClase-Recursividad-Estructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\EjerciciosClase-Recursividad-Estructura\obj\Debug\net6.0\EjerciciosClase-Recursividad-Estructura.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\EjerciciosClase-Recursividad-Estructura\obj\Debug\net6.0\EjerciciosClase-Recursividad-Estructura.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\EjerciciosClase-Recursividad-Estructura\obj\Debug\net6.0\EjerciciosClase-Recursividad-Estructura.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\EjerciciosClase-Recursividad-Estructura\obj\Debug\net6.0\EjerciciosClase-Recursividad-Estructura.dll
+C:\Users\Usuario\source\repos\EjerciciosClase-Recursividad-Estructura\obj\Debug\net6.0\refint\EjerciciosClase-Recursividad-Estructura.dll
+C:\Users\Usuario\source\repos\EjerciciosClase-Recursividad-Estructura\obj\Debug\net6.0\EjerciciosClase-Recursividad-Estructura.pdb
+C:\Users\Usuario\source\repos\EjerciciosClase-Recursividad-Estructura\obj\Debug\net6.0\EjerciciosClase-Recursividad-Estructura.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\EjerciciosClase-Recursividad-Estructura\obj\Debug\net6.0\ref\EjerciciosClase-Recursividad-Estructura.dll
