@@ -1,20 +1,32 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package javaapplication5;
 
-/**
- *
- * @author ENRIQUE
- */
+import java.util.LinkedList;
+import java.util.Queue;
+
+
 public class JavaApplication5 {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Queue<String> cola = new LinkedList<>();
+        
+        Iu1 ui = new Iu1();
+        ui.setVisible(true);
+        cola.add("Elemento 1");
+        cola.add("Elemento 2");
+        cola.add("Elemento 3");
+        
+           // Obtener y eliminar el elemento al frente de la cola
+        String elemento = cola.poll();
+        System.out.println("Elemento obtenido y eliminado: " + elemento);
+
+        // Mostrar todos los elementos de la cola
+        System.out.println("Elementos en la cola:");
+        for (String e : cola) {
+            System.out.println(e);
+        }
     }
     
 }
