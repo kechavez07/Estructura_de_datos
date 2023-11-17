@@ -26,47 +26,81 @@ public class Iu1 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        lbHistorial = new javax.swing.JLabel();
         btnAnadir = new javax.swing.JButton();
         btnImprimir = new javax.swing.JButton();
-        lbHistorial = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        btnAnadir.setText("jButton1");
+        jPanel1.setBackground(new java.awt.Color(210, 209, 240));
+        jPanel1.setLayout(null);
 
-        btnImprimir.setText("jButton2");
+        lbHistorial.setBackground(new java.awt.Color(102, 255, 102));
+        lbHistorial.setFont(new java.awt.Font("Monotype Corsiva", 1, 36)); // NOI18N
+        lbHistorial.setText("SISTEMA DE IMPRESION");
+        jPanel1.add(lbHistorial);
+        lbHistorial.setBounds(20, 50, 420, 29);
 
-        lbHistorial.setText("jLabel1");
+        btnAnadir.setForeground(new java.awt.Color(255, 255, 51));
+        btnAnadir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagen/48761_file_add_upload_icon.png"))); // NOI18N
+        btnAnadir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAnadirActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnAnadir);
+        btnAnadir.setBounds(97, 231, 56, 67);
+
+        btnImprimir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagen/8396426_printer_print_machine_office_business_icon.png"))); // NOI18N
+        btnImprimir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnImprimirActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btnImprimir);
+        btnImprimir.setBounds(300, 231, 62, 67);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagen/pngwing.com.png"))); // NOI18N
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(280, -10, 300, 340);
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagen/pngwing.com.png"))); // NOI18N
+        jPanel1.add(jLabel2);
+        jLabel2.setBounds(-80, -40, 260, 380);
+
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jScrollPane1.setViewportView(jTextArea1);
+
+        jPanel1.add(jScrollPane1);
+        jScrollPane1.setBounds(100, 110, 234, 86);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(45, 45, 45)
-                .addComponent(btnAnadir)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 131, Short.MAX_VALUE)
-                .addComponent(btnImprimir)
-                .addGap(78, 78, 78))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(153, 153, 153)
-                .addComponent(lbHistorial)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 455, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(107, Short.MAX_VALUE)
-                .addComponent(lbHistorial)
-                .addGap(101, 101, 101)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnAnadir)
-                    .addComponent(btnImprimir))
-                .addGap(55, 55, 55))
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 336, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnAnadirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAnadirActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnAnadirActionPerformed
+
+    private void btnImprimirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnImprimirActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnImprimirActionPerformed
 
     /**
      * @param args the command line arguments
@@ -107,6 +141,11 @@ public class Iu1 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnAnadir;
     public javax.swing.JButton btnImprimir;
+    public javax.swing.JLabel jLabel1;
+    public javax.swing.JLabel jLabel2;
+    public javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane1;
+    public javax.swing.JTextArea jTextArea1;
     public javax.swing.JLabel lbHistorial;
     // End of variables declaration//GEN-END:variables
 }
