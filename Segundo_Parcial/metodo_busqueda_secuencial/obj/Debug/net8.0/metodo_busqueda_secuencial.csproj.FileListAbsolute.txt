@@ -1,0 +1,15 @@
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\metodo_busqueda_secuencial\bin\Debug\net8.0\metodo_busqueda_secuencial.exe
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\metodo_busqueda_secuencial\bin\Debug\net8.0\metodo_busqueda_secuencial.deps.json
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\metodo_busqueda_secuencial\bin\Debug\net8.0\metodo_busqueda_secuencial.runtimeconfig.json
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\metodo_busqueda_secuencial\bin\Debug\net8.0\metodo_busqueda_secuencial.dll
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\metodo_busqueda_secuencial\bin\Debug\net8.0\metodo_busqueda_secuencial.pdb
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\metodo_busqueda_secuencial\obj\Debug\net8.0\metodo_busqueda_secuencial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\metodo_busqueda_secuencial\obj\Debug\net8.0\metodo_busqueda_secuencial.AssemblyInfoInputs.cache
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\metodo_busqueda_secuencial\obj\Debug\net8.0\metodo_busqueda_secuencial.AssemblyInfo.cs
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\metodo_busqueda_secuencial\obj\Debug\net8.0\metodo_busqueda_secuencial.csproj.CoreCompileInputs.cache
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\metodo_busqueda_secuencial\obj\Debug\net8.0\metodo_busqueda_secuencial.sourcelink.json
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\metodo_busqueda_secuencial\obj\Debug\net8.0\metodo_busqueda_secuencial.dll
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\metodo_busqueda_secuencial\obj\Debug\net8.0\refint\metodo_busqueda_secuencial.dll
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\metodo_busqueda_secuencial\obj\Debug\net8.0\metodo_busqueda_secuencial.pdb
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\metodo_busqueda_secuencial\obj\Debug\net8.0\metodo_busqueda_secuencial.genruntimeconfig.cache
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\metodo_busqueda_secuencial\obj\Debug\net8.0\ref\metodo_busqueda_secuencial.dll

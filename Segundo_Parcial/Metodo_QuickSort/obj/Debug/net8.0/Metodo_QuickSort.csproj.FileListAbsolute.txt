@@ -1,0 +1,15 @@
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\Metodo_QuickSort\bin\Debug\net8.0\Metodo_QuickSort.exe
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\Metodo_QuickSort\bin\Debug\net8.0\Metodo_QuickSort.deps.json
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\Metodo_QuickSort\bin\Debug\net8.0\Metodo_QuickSort.runtimeconfig.json
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\Metodo_QuickSort\bin\Debug\net8.0\Metodo_QuickSort.dll
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\Metodo_QuickSort\bin\Debug\net8.0\Metodo_QuickSort.pdb
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\Metodo_QuickSort\obj\Debug\net8.0\Metodo_QuickSort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\Metodo_QuickSort\obj\Debug\net8.0\Metodo_QuickSort.AssemblyInfoInputs.cache
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\Metodo_QuickSort\obj\Debug\net8.0\Metodo_QuickSort.AssemblyInfo.cs
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\Metodo_QuickSort\obj\Debug\net8.0\Metodo_QuickSort.csproj.CoreCompileInputs.cache
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\Metodo_QuickSort\obj\Debug\net8.0\Metodo_QuickSort.sourcelink.json
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\Metodo_QuickSort\obj\Debug\net8.0\Metodo_QuickSort.dll
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\Metodo_QuickSort\obj\Debug\net8.0\refint\Metodo_QuickSort.dll
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\Metodo_QuickSort\obj\Debug\net8.0\Metodo_QuickSort.pdb
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\Metodo_QuickSort\obj\Debug\net8.0\Metodo_QuickSort.genruntimeconfig.cache
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Segundo_Parcial\Metodo_QuickSort\obj\Debug\net8.0\ref\Metodo_QuickSort.dll
