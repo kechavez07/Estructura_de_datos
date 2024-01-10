@@ -1,0 +1,15 @@
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Lsboratorio\Laboratorio_grupo3\bin\Debug\net6.0\Laboratorio_grupo3.exe
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Lsboratorio\Laboratorio_grupo3\bin\Debug\net6.0\Laboratorio_grupo3.deps.json
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Lsboratorio\Laboratorio_grupo3\bin\Debug\net6.0\Laboratorio_grupo3.runtimeconfig.json
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Lsboratorio\Laboratorio_grupo3\bin\Debug\net6.0\Laboratorio_grupo3.dll
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Lsboratorio\Laboratorio_grupo3\bin\Debug\net6.0\Laboratorio_grupo3.pdb
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Lsboratorio\Laboratorio_grupo3\obj\Debug\net6.0\Laboratorio_grupo3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Lsboratorio\Laboratorio_grupo3\obj\Debug\net6.0\Laboratorio_grupo3.AssemblyInfoInputs.cache
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Lsboratorio\Laboratorio_grupo3\obj\Debug\net6.0\Laboratorio_grupo3.AssemblyInfo.cs
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Lsboratorio\Laboratorio_grupo3\obj\Debug\net6.0\Laboratorio_grupo3.csproj.CoreCompileInputs.cache
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Lsboratorio\Laboratorio_grupo3\obj\Debug\net6.0\Laboratorio_grupo3.sourcelink.json
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Lsboratorio\Laboratorio_grupo3\obj\Debug\net6.0\Laboratorio_grupo3.dll
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Lsboratorio\Laboratorio_grupo3\obj\Debug\net6.0\refint\Laboratorio_grupo3.dll
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Lsboratorio\Laboratorio_grupo3\obj\Debug\net6.0\Laboratorio_grupo3.pdb
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Lsboratorio\Laboratorio_grupo3\obj\Debug\net6.0\Laboratorio_grupo3.genruntimeconfig.cache
+C:\Users\ENRIQUE\Desktop\universidad\5.quinto_semestre\Estructuras_de_datos\Estructura_de_datos\Lsboratorio\Laboratorio_grupo3\obj\Debug\net6.0\ref\Laboratorio_grupo3.dll
