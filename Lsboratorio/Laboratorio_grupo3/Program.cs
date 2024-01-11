@@ -76,6 +76,26 @@
 				}
 			}
 
+			public int Contar()
+			{
+				Nodo actual = new Nodo();
+				actual = primero;
+				int num = 0;
+				if (primero != null)
+				{
+					while (actual != null)
+					{
+						num++;
+						actual = actual.Siguiente;
+					}
+					return num;
+				}
+				else
+				{
+					return 0;
+				}
+			}
+
 			public void Ver()
 			{
 				Nodo actual = new Nodo();
@@ -141,7 +161,7 @@
 						Menu2(ls,4);
 						break;
 					default:
-						Console.WriteLine("Número no válido. Debes ingresar 1, 2 o 3.");
+						Console.WriteLine("Número no válido.");
 						break;
 				}
 			}
@@ -211,9 +231,9 @@
 		}
 		/////////////////
 		////////    metodos
-		public static void Shell(int[] array)
+		public static void Shell(ListaSimple array)
 		{
-			int n = array.Length;
+			int n = array.Contar();
 			int gap = n / 2;
 
 			while (gap > 0)
