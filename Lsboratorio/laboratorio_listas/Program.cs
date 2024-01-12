@@ -52,6 +52,7 @@ namespace laboratorio_listas
 			Console.WriteLine("* 2.- Mostrar las películas ingresadas por el usuario.  *");
 			Console.WriteLine("* 3.- Ordenar películas por nombre.                     *");
 			Console.WriteLine("* 4.- Ordenar películas por año.                        *");
+			Console.WriteLine("* 5.- Cerrar el programa	                           *");
 			Console.WriteLine("*********************************************************");
 			Console.WriteLine();
 			Console.WriteLine("Escriba el numero de la opcion que desea");
@@ -86,6 +87,8 @@ namespace laboratorio_listas
 						break;
 					case 4:
 						Menu2(ls, 4);
+						break;
+					case 5:
 						break;
 					default:
 						Console.WriteLine("Número no válido.");
