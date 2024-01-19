@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 
 namespace laboratorio_listas
 {
@@ -198,38 +199,54 @@ namespace laboratorio_listas
 				{
 					case 1:
 						ShellInt(ls);
-						Console.WriteLine("\nAlgoritmo Secuencial");
-						if (num == 3)
+						int anioBusqueda = 0;
+						do 
 						{
+							Console.WriteLine("\nAlgoritmo Secuencial");
 							Console.WriteLine("Ingrese el año que desea buscar:");
-							int anioBusqueda = int.Parse(Console.ReadLine());
-							BusquedaSecuencial(ls, anioBusqueda);
-						}
-						else
-						{
-							Console.WriteLine("Ingrese el año que desea buscar:");
-							int anioBusqueda = int.Parse(Console.ReadLine());
-							BusquedaSecuencial(ls, anioBusqueda);
-						}
+							anioBusqueda = int.Parse(Console.ReadLine());
+							if (anioBusqueda != 1895 && anioBusqueda != 2024)
+							{
+								
+								BusquedaSecuencial(ls, anioBusqueda);
+							}
+							else
+							{
+								Console.WriteLine("Intervalo de año incorecto");
+							}
+
+						} while (anioBusqueda != 1895 && anioBusqueda != 2024) ;
 						break;
 
 					case 2:
 						ShellInt(ls);
-						Console.WriteLine("\nAlgoritmo Binario");
-						Console.WriteLine("Ingrese el año que desea buscar:");
-						int anioBinario = int.Parse(Console.ReadLine());
-						int resultadoBinario = BusquedaBinaria(ls, anioBinario);
+						int anioBinario = 0;
+						do 
+						{
+							Console.WriteLine("\nAlgoritmo Binario");
+							Console.WriteLine("Ingrese el año que desea buscar:");
+							anioBinario = int.Parse(Console.ReadLine());
+							if (anioBinario == 1895 && anioBinario == 2024)
+							{
+								int resultadoBinario = BusquedaBinaria(ls, anioBinario);
 
-						if (resultadoBinario != -1)
-						{
-							Console.WriteLine($"Pelicula encontrada para el año {anioBinario}:");
-							ls[resultadoBinario].Mostrar();
-						}
-						else
-						{
-							Console.WriteLine($"No se encontraron películas para el año {anioBinario}.");
-						}
-						Menu1(ls);
+								if (resultadoBinario != -1)
+								{
+									Console.WriteLine($"Pelicula encontrada para el año {anioBinario}:");
+									ls[resultadoBinario].Mostrar();
+								}
+								else
+								{
+									Console.WriteLine($"No se encontraron películas para el año {anioBinario}.");
+								}
+								Menu1(ls);
+							}
+							else
+							{
+								Console.WriteLine("Intervalo de año incorecto");
+							}
+						} while (anioBinario != 1895 && anioBinario != 2024) ;
+
 						break;
 
 					case 3:
@@ -237,7 +254,9 @@ namespace laboratorio_listas
 						Menu1(ls);
 						break;
 					default:
+						Console.Clear();
 						Console.WriteLine("\nOpcion no valida, escoja una opcion del menu");
+						Menu1(ls);
 						break;
 				}
 			}
@@ -471,7 +490,7 @@ namespace laboratorio_listas
 				else
 					derecha = medio - 1;
 			}
-			return -1; // Si no se encuentra el año, devolver -1
+			return -1; 
 		}
 
 
