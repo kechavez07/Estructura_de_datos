@@ -18,8 +18,8 @@ namespace laboratorio_listas
 			}
 			public Pelicula(string nombre, int anio)
 			{
-				Nombre = nombre;
-				Anio = anio;
+				this.Nombre = nombre;
+				this.Anio = anio;
 
 			}
 
@@ -197,6 +197,7 @@ namespace laboratorio_listas
 				switch (op)
 				{
 					case 1:
+						ShellInt(ls);
 						Console.WriteLine("\nAlgoritmo Secuencial");
 						if (num == 3)
 						{
@@ -213,10 +214,11 @@ namespace laboratorio_listas
 						break;
 
 					case 2:
+						ShellInt(ls);
 						Console.WriteLine("\nAlgoritmo Binario");
 						Console.WriteLine("Ingrese el año que desea buscar:");
 						int anioBinario = int.Parse(Console.ReadLine());
-						int resultadoBinario = busquedaBinaria(ls, anioBinario);
+						int resultadoBinario = BusquedaBinaria(ls, anioBinario);
 
 						if (resultadoBinario != -1)
 						{
@@ -453,31 +455,25 @@ namespace laboratorio_listas
 			Menu1(lista);
 		}
 
-		static int busquedaBinaria(List<Pelicula> lista, int clave)
+		static int BusquedaBinaria(List<Pelicula> lista, int anioBuscado)
 		{
-			int bajo = 0;
-			int alto = lista.Count - 1;
+			int izquierda = 0;
+			int derecha = lista.Count - 1;
 
-			while (bajo <= alto)
+			while (izquierda <= derecha)
 			{
-				int central = (bajo + alto) / 2;
-				int valorCentral = lista[central].Anio;
+				int medio = izquierda + (derecha - izquierda) / 2;
 
-				if (clave == valorCentral)
-				{
-					return central;
-				}
-				else if (clave < valorCentral)
-				{
-					alto = central - 1;
-				}
+				if (lista[medio].Anio == anioBuscado)
+					return medio;
+				else if (lista[medio].Anio < anioBuscado)
+					izquierda = medio + 1;
 				else
-				{
-					bajo = central + 1;
-				}
+					derecha = medio - 1;
 			}
-			return -1;
+			return -1; // Si no se encuentra el año, devolver -1
 		}
+
 
 		static void mostrar(List<Pelicula> lista)
 		{
@@ -488,10 +484,40 @@ namespace laboratorio_listas
 			Console.WriteLine();
 		}
 
-		///////// /
+		////////
+
+		//static int BusquedaBinaria(List<Pelicula> lista, int anioBuscado)
+		//{
+		//	int izquierda = 0;
+		//	int derecha = lista.Count - 1;
+
+		//	while (izquierda <= derecha)
+		//	{
+		//		int medio = izquierda + (derecha - izquierda) / 2;
+
+		//		if (lista[medio].Anio == anioBuscado)
+		//			return medio;
+		//		else if (lista[medio].Anio < anioBuscado)
+		//			izquierda = medio + 1;
+		//		else
+		//			derecha = medio - 1;
+		//	}
+		//	return -1; // Si no se encuentra el año, devolver -1
+		//}
+
 		static void Main(string[] args)
 		{
+			Pelicula p1 = new Pelicula("Mulholland Drive", 2001);
+			Pelicula p2 = new Pelicula("Fa yeung nin wa", 2000);
+			Pelicula p3 = new Pelicula("There Will Be Blood", 2007);
+			Pelicula p4 = new Pelicula("Boyhood", 2014);
+			Pelicula p5 = new Pelicula("El árbol de la vida", 2011);
 			List<Pelicula> ls = new List<Pelicula>();
+			ls.Add(p1);
+			ls.Add(p2);
+			ls.Add(p3);	
+			ls.Add(p4);
+			ls.Add(p5);
 			Menu1(ls);
 
 		}
