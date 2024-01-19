@@ -205,7 +205,7 @@ namespace laboratorio_listas
 							Console.WriteLine("\nAlgoritmo Secuencial");
 							Console.WriteLine("Ingrese el año que desea buscar:");
 							anioBusqueda = int.Parse(Console.ReadLine());
-							if (anioBusqueda != 1895 && anioBusqueda != 2024)
+							if (anioBusqueda > 1895 && anioBusqueda < 2024)
 							{
 								
 								BusquedaSecuencial(ls, anioBusqueda);
@@ -215,7 +215,7 @@ namespace laboratorio_listas
 								Console.WriteLine("Intervalo de año incorecto");
 							}
 
-						} while (anioBusqueda != 1895 && anioBusqueda != 2024) ;
+						} while (anioBusqueda < 1895 && anioBusqueda > 2024) ;
 						break;
 
 					case 2:
@@ -226,7 +226,7 @@ namespace laboratorio_listas
 							Console.WriteLine("\nAlgoritmo Binario");
 							Console.WriteLine("Ingrese el año que desea buscar:");
 							anioBinario = int.Parse(Console.ReadLine());
-							if (anioBinario == 1895 && anioBinario == 2024)
+							if (anioBinario > 1895 && anioBinario < 2024)
 							{
 								int resultadoBinario = BusquedaBinaria(ls, anioBinario);
 
@@ -245,7 +245,7 @@ namespace laboratorio_listas
 							{
 								Console.WriteLine("Intervalo de año incorecto");
 							}
-						} while (anioBinario != 1895 && anioBinario != 2024) ;
+						} while (anioBinario < 1895 && anioBinario > 2024) ;
 
 						break;
 
