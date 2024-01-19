@@ -503,26 +503,8 @@ namespace laboratorio_listas
 			Console.WriteLine();
 		}
 
-		////////
-
-		//static int BusquedaBinaria(List<Pelicula> lista, int anioBuscado)
-		//{
-		//	int izquierda = 0;
-		//	int derecha = lista.Count - 1;
-
-		//	while (izquierda <= derecha)
-		//	{
-		//		int medio = izquierda + (derecha - izquierda) / 2;
-
-		//		if (lista[medio].Anio == anioBuscado)
-		//			return medio;
-		//		else if (lista[medio].Anio < anioBuscado)
-		//			izquierda = medio + 1;
-		//		else
-		//			derecha = medio - 1;
-		//	}
-		//	return -1; // Si no se encuentra el año, devolver -1
-		//}
+		/// //////
+	
 
 		static void Main(string[] args)
 		{
