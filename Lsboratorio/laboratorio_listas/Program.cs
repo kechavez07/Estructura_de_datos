@@ -39,7 +39,7 @@ namespace laboratorio_listas
 				Console.WriteLine("Nombre : " + nombre + "  Año : " + anio);
 			}
 		}
-		
+
 		static void Menu1(List<Pelicula> ls)
 		{
 
@@ -52,7 +52,8 @@ namespace laboratorio_listas
 			Console.WriteLine("* 2.- Mostrar las películas ingresadas por el usuario.  *");
 			Console.WriteLine("* 3.- Ordenar películas por nombre.                     *");
 			Console.WriteLine("* 4.- Ordenar películas por año.                        *");
-			Console.WriteLine("* 5.- Cerrar el programa	                           *");
+			Console.WriteLine("* 5.- Buscar peliculas por año.                                 *");
+			Console.WriteLine("* 6.- Cerrar el programa	                               *");
 			Console.WriteLine("*********************************************************");
 			Console.WriteLine();
 			Console.WriteLine("Escriba el numero de la opcion que desea");
@@ -89,17 +90,25 @@ namespace laboratorio_listas
 						Menu2(ls, 4);
 						break;
 					case 5:
+						Menu3(ls, 5);
+						break;
+					case 6:
 						break;
 					default:
-						Console.WriteLine("Número no válido.");
+						
+						Console.Clear();
+						Console.WriteLine("Número no válido seleccione una de las opciones del Menu \n");
+						Menu1(ls);
 						break;
 				}
 			}
 			else
 			{
 				Console.WriteLine("Entrada no válida. Debes ingresar un número entero.");
+				Menu1(ls);
 			}
 		}
+
 		static void Menu2(List<Pelicula> ls, int num)
 		{
 			int op = 0;
@@ -110,7 +119,7 @@ namespace laboratorio_listas
 			Console.WriteLine("3.- Ordenar por Quick");
 			Console.WriteLine("4.- Regresar");
 			Console.WriteLine("***********************\n");
-			Console.WriteLine("Escriba el numeo de la opcion que desea:");
+			Console.WriteLine("Escriba el numero de la opcion que desea:");
 
 			if (int.TryParse(Console.ReadLine(), out op))
 			{
@@ -171,6 +180,67 @@ namespace laboratorio_listas
 				}
 			}
 		}
+		/////////////
+		static void Menu3(List<Pelicula> ls, int num)
+		{
+			int op = 0;
+			Console.WriteLine("*********************************************");
+			Console.WriteLine("Ingrese el algoritmo de busqueda a utilizar:");
+			Console.WriteLine("1.- Buscar por Secuencial");
+			Console.WriteLine("2.- Buscar por Binario");
+			Console.WriteLine("3.- Regresar");
+			Console.WriteLine("*********************************************\n");
+			Console.WriteLine("Escriba el numero de la opcion que desea:");
+
+			if (int.TryParse(Console.ReadLine(), out op))
+			{
+				switch (op)
+				{
+					case 1:
+						Console.WriteLine("\nAlgoritmo Secuencial");
+						if (num == 3)
+						{
+							Console.WriteLine("Ingrese el año que desea buscar:");
+							int anioBusqueda = int.Parse(Console.ReadLine());
+							BusquedaSecuencial(ls, anioBusqueda);
+						}
+						else
+						{
+							Console.WriteLine("Ingrese el año que desea buscar:");
+							int anioBusqueda = int.Parse(Console.ReadLine());
+							BusquedaSecuencial(ls, anioBusqueda);
+						}
+						break;
+
+					case 2:
+						Console.WriteLine("\nAlgoritmo Binario");
+						Console.WriteLine("Ingrese el año que desea buscar:");
+						int anioBinario = int.Parse(Console.ReadLine());
+						int resultadoBinario = busquedaBinaria(ls, anioBinario);
+
+						if (resultadoBinario != -1)
+						{
+							Console.WriteLine($"Pelicula encontrada para el año {anioBinario}:");
+							ls[resultadoBinario].Mostrar();
+						}
+						else
+						{
+							Console.WriteLine($"No se encontraron películas para el año {anioBinario}.");
+						}
+						Menu1(ls);
+						break;
+
+					case 3:
+						Console.WriteLine("\nRegresando al menu anterior");
+						Menu1(ls);
+						break;
+					default:
+						Console.WriteLine("\nOpcion no valida, escoja una opcion del menu");
+						break;
+				}
+			}
+		}
+
 		/////////////////
 		////////    metodos
 		///
@@ -215,6 +285,7 @@ namespace laboratorio_listas
 
 			return lista;
 		}
+
 		static List<Pelicula> QuickSortString(List<Pelicula> lista, int menor, int mayor)
 		{
 			int i = menor;
@@ -256,7 +327,6 @@ namespace laboratorio_listas
 
 			return lista;
 		}
-
 
 		static void BurbujaString(List<Pelicula> lista)
 		{
@@ -336,7 +406,7 @@ namespace laboratorio_listas
 				gap /= 2;
 			}
 		}
-				
+
 		static void ShellInt(List<Pelicula> lista)
 		{
 			int n = lista.Count;
@@ -358,6 +428,55 @@ namespace laboratorio_listas
 				}
 				gap /= 2;
 			}
+		}
+
+		static void BusquedaSecuencial(List<Pelicula> lista, int anioBusqueda)
+		{
+			Console.WriteLine($"Peliculas encontradas para el año {anioBusqueda}:");
+
+			bool encontrado = false;
+
+			foreach (var pelicula in lista)
+			{
+				if (pelicula.Anio == anioBusqueda)
+				{
+					pelicula.Mostrar();
+					encontrado = true;
+				}
+			}
+
+			if (!encontrado)
+			{
+				Console.WriteLine($"No se encontraron películas para el año {anioBusqueda}.");
+			}
+
+			Menu1(lista);
+		}
+
+		static int busquedaBinaria(List<Pelicula> lista, int clave)
+		{
+			int bajo = 0;
+			int alto = lista.Count - 1;
+
+			while (bajo <= alto)
+			{
+				int central = (bajo + alto) / 2;
+				int valorCentral = lista[central].Anio;
+
+				if (clave == valorCentral)
+				{
+					return central;
+				}
+				else if (clave < valorCentral)
+				{
+					alto = central - 1;
+				}
+				else
+				{
+					bajo = central + 1;
+				}
+			}
+			return -1;
 		}
 
 		static void mostrar(List<Pelicula> lista)
